@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>U.S. Candy Distributor — Sales Performance &amp; Profitability Analysis</title>
+<style>
+:root{color-scheme:light;--ink:#241a27;--muted:#615267;--paper:#f7f2ed;--card:#fffdfb;--line:#e7dce6;--plum:#69365e;--pink:#ac4d70}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 "Segoe UI",sans-serif}
+main{max-width:1160px;margin:auto;padding:38px 28px 48px}
+.hero{padding:38px 36px;background:#39213b;color:#fff7f5;border-radius:20px;border-bottom:5px solid #b9587c}
+.eyebrow{font-weight:700;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:#f0b9d0;margin:0}
+h1,h2,h3,p{margin-top:0}h1{font:700 clamp(1.8rem,5vw,3.2rem)/1.1 Georgia,serif;max-width:840px;margin:12px 0 0}
+h2{font:700 1.65rem/1.15 Georgia,serif;margin-bottom:14px}h3{font-size:1rem;margin-bottom:6px}
+.kpis,.grid{display:grid;gap:16px;margin-top:16px}.kpis{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:1fr 1fr}
+.card,.kpi{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:21px}.wide{grid-column:1/-1}
+.kpi span{display:block;color:var(--muted);font-size:.88rem}.kpi strong{font:700 clamp(1.25rem,3vw,1.95rem)/1.35 Georgia,serif;color:var(--plum)}
+.note,footer{color:var(--muted);font-size:.92rem}.note:last-child,li:last-child{margin-bottom:0}
+.bar-row{display:grid;grid-template-columns:4.6rem 1fr 6.7rem;align-items:center;gap:10px;margin:12px 0}
+.bar-row strong{text-align:right;font-variant-numeric:tabular-nums}
+.track{height:12px;background:#f1e7ee;border-radius:10px;overflow:hidden}
+.fill{display:block;background:var(--plum);height:100%;border-radius:10px}.latest{background:var(--pink)}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:10px 5px;border-bottom:1px solid var(--line)}
+th:first-child,td:first-child{padding-left:0}
+th:not(:first-child),td:not(:first-child){text-align:right}
+th{font-size:.77rem;color:var(--muted)}td{font-size:.92rem}
+tbody tr:last-child td{border-bottom:0}
+ul{padding-left:20px;margin-bottom:0}li{margin-bottom:9px}
+footer{margin-top:16px}a{color:#66365e}
+@media(max-width:790px){main{padding:18px 12px 28px}.hero{padding:25px 22px}.grid{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.card,.kpi{padding:15px}}
+@media print{main{padding:0}.card,.kpi{break-inside:avoid}.hero{background:white;color:var(--ink);padding:12px 0}.eyebrow{color:var(--plum)}}
+</style>
+</head>
+<body>
+<main>
+<header class="hero">
+<p class="eyebrow">United States · January 2021–December 2024</p>
+<h1>U.S. Candy Distributor — Sales Performance &amp; Profitability Analysis</h1>
+</header>
+
+<section class="kpis" aria-label="Four-year key performance indicators">
+<div class="kpi"><span>Revenue</span><strong>$138,830.34</strong></div>
+<div class="kpi"><span>Gross profit</span><strong>$91,508.23</strong></div>
+<div class="kpi"><span>Gross margin</span><strong>65.91%</strong></div>
+<div class="kpi"><span>Distinct source order IDs</span><strong>8,389</strong></div>
+</section>
+
+<div class="grid">
+<section class="card">
+<h2>Annual revenue</h2>
+<div class="bar-row"><span>2021</span><span class="track" aria-hidden="true"><span class="fill" style="width:56.02%"></span></span><strong>$28,011.91</strong></div>
+<div class="bar-row"><span>2022</span><span class="track" aria-hidden="true"><span class="fill" style="width:57.26%"></span></span><strong>$28,630.73</strong></div>
+<div class="bar-row"><span>2023</span><span class="track" aria-hidden="true"><span class="fill" style="width:72.46%"></span></span><strong>$36,228.35</strong></div>
+<div class="bar-row"><span>2024</span><span class="track" aria-hidden="true"><span class="fill latest" style="width:91.92%"></span></span><strong>$45,959.35</strong></div>
+<p class="note">2024 revenue rose 26.86% year over year. November 2024 was the strongest month at $6,741.14. Gross margin moved from 66.02% in 2023 to 65.91% in 2024.</p>
+</section>
+
+<section class="card">
+<h2>Division performance</h2>
+<table aria-label="Performance by division">
+<thead><tr><th scope="col">Division</th><th scope="col">Revenue</th><th scope="col">Gross profit</th><th scope="col">Margin</th></tr></thead>
+<tbody>
+<tr><td>Chocolate</td><td>$129,019.61</td><td>$87,030.05</td><td>67.45%</td></tr>
+<tr><td>Other</td><td>$9,462.00</td><td>$4,240.70</td><td>44.82%</td></tr>
+<tr><td>Sugar</td><td>$348.73</td><td>$237.48</td><td>68.10%</td></tr>
+</tbody>
+</table>
+<p class="note">Chocolate accounted for 92.93% of revenue and 95.11% of gross profit.</p>
+</section>
+
+<section class="card">
+<h2>Top products by gross profit</h2>
+<table aria-label="Top three products by gross profit">
+<thead><tr><th scope="col">Product</th><th scope="col">Gross profit</th><th scope="col">Margin</th></tr></thead>
+<tbody>
+<tr><td>Scrumdiddlyumptious</td><td>$18,907.50</td><td>69.44%</td></tr>
+<tr><td>Triple Dazzle Caramel</td><td>$18,350.50</td><td>65.33%</td></tr>
+<tr><td>Milk Chocolate</td><td>$16,877.89</td><td>64.92%</td></tr>
+</tbody>
+</table>
+<p class="note">All three are Wonka Bars. Triple Dazzle Caramel led revenue at $28,087.50.</p>
+</section>
+
+<section class="card">
+<h2>Top destinations by revenue</h2>
+<table aria-label="Top three destination states by revenue">
+<thead><tr><th scope="col">State</th><th scope="col">Revenue</th><th scope="col">Gross profit</th></tr></thead>
+<tbody>
+<tr><td>California</td><td>$27,917.40</td><td>$18,479.42</td></tr>
+<tr><td>New York</td><td>$15,541.03</td><td>$10,222.44</td></tr>
+<tr><td>Texas</td><td>$13,416.09</td><td>$8,909.53</td></tr>
+</tbody>
+</table>
+<p class="note">California contributed 20.11% of total U.S. revenue across 49 reported state or district categories.</p>
+</section>
+
+<section class="card wide">
+<h2>Methodology and limitations</h2>
+<ul>
+<li>SQLite joined the product catalog to 9,994 U.S. sales lines from 5,009 customers. The queries use customer destination and order date and exclude 200 Canadian lines.</li>
+<li>Gross profit equals sales less manufacturing cost on every line. Gross margin divides total gross profit by total revenue.</li>
+<li>U.S. order IDs contain product suffixes. The dashboard counts distinct source IDs. Checkout transaction counts remain unverified.</li>
+<li>The product catalog classifies Fizzy Lifting Drinks as Other. Six sales lines label it Sugar. Division totals follow the catalog.</li>
+<li>Maven documents 2024 division targets, but their geographic coverage is unspecified. The dashboard omits target attainment. Source ship dates fall in 2026–2030, so the analysis uses order dates only.</li>
+</ul>
+</section>
+</div>
+<footer>Source <a href="https://mavenanalytics.io/data-playground/us-candy-distributor">Maven Analytics U.S. Candy Distributor</a> · Public Domain · SQLite analysis</footer>
+</main>
+</body>
+</html>
+
